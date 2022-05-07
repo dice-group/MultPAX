@@ -1,0 +1,10 @@
+Python 3.7
+keybert
+sentence-transformers 2.2.0
+SPARQLWrapper 2.0.0
+SciPy 1.8.0
+NumPy 1.21.5
+Pandas 1.4.2
+NLTK 3.6.6 
+requests 2.27.1
+py-babelnet
