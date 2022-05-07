@@ -45,8 +45,8 @@ py-babelnet
 ```
 
 We provide our experiements as Jupyter notebooks (`see Experiments Folder`) and source files (`see src Folder`). We recommend using Jupyter notebooks for an interactive execution of our experiments. Furhtermore, we provide a Jupyter notebook for each experiments:
-- [MultPAX-Inspec](Experiments/MltPAX-Inspec.ipynb) 
-- MultPAX-SemEval 
+- [MultPAX-Inspec](Experiments/Inspec%20experiment/MltPAX-Inspec.ipynb) 
+- [MultPAX-SemEval](Experiments/SemEval2010%20experiment/MltPAX-SemEval2010.ipynb)
 - MultPAX-NUS 
 - MultPAX-Krapivin2009  
 
