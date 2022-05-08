@@ -2,7 +2,7 @@
 This repositoy contains the source code of paper: *"MultPAX: Keyphrase Extraction using Language models and Knowledge Graphs"*. The paper is currently under-review at the ISWC 2022 conference. 
 
 <p align="center">
-<img src="data/MltPAX.jpg" width="500" height="300">
+<img src="data/MltPAX.jpg" width="800" height="400">
 </p>
 <p align="center">Fig. 1 Architecure of MltPAX Framework</p>
 
@@ -25,6 +25,26 @@ This repositoy contains the source code of paper: *"MultPAX: Keyphrase Extractio
     
 4) We carried out several experiments on four benchmark datasets. The evaluation results showed that our approach proved to be more accurate compared with state-of-the-art baselines.  
 ```    
+
+### Repository Structure:
+```
+.
+├── Baselines
+│   ├── EmbedRank-Baseline.ipynb
+│   ├── EmbedRank(Wordwise)- Baseline.ipynb
+│   ├── TextRank-Baseline.ipynb
+│   └── YAKE-Baseline.ipynb
+├── Inspec experiment
+│   └── MltPAX-Inspec.ipynb
+├── Krapivin2009 experiment
+│   └── MltPAX-Krapivin2009.ipynb
+├── NUS experiment
+│   └── MltPAX-NUS.ipynb
+├── SemEval2010 experiment
+│   └── MltPAX-SemEval2010.ipynb
+└── .DS_Store
+```
+
 ---
 ## How to run: 
 We conduct several experiments on four benchmark datasets, namely: *Inspec, SemEval2010, NUS and Krapivin2009*. The datasets are available at the [Dropbox Folder](https://www.dropbox.com/s/aluvkblymjs7i3r/MULTPAX-Datasets.zip?dl=0). 
