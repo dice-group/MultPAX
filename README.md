@@ -1,7 +1,6 @@
 # MultPAX: Keyphrase Extraction using Language Models and Knowledge Graphs
 This repositoy contains the source code of paper: *"MultPAX: Keyphrase Extraction using Language models and Knowledge Graphs"*. The paper is currently under-review at the ISWC 2022 conference. 
 
-
 <p align="center">
 <img src="data/MltPAX.jpg" width="500" height="300">
 </p>
@@ -47,8 +46,8 @@ py-babelnet
 We provide our experiements as Jupyter notebooks (`see Experiments Folder`) and source files (`see src Folder`). We recommend using Jupyter notebooks for an interactive execution of our experiments. Furhtermore, we provide a Jupyter notebook for each experiments:
 - [MultPAX-Inspec](Experiments/Inspec%20experiment/MltPAX-Inspec.ipynb) 
 - [MultPAX-SemEval](Experiments/SemEval2010%20experiment/MltPAX-SemEval2010.ipynb)
-- MultPAX-NUS 
-- MultPAX-Krapivin2009  
+- [MultPAX-NUS](Experiments/NUS%20experiment/MltPAX-NUS.ipynb) 
+- [MultPAX-Krapivin2009](Experiments/Krapivin2009%20experiment/MltPAX-Krapivin2009.ipynb)  
 
 ---
 ## Citation
