@@ -1,5 +1,5 @@
 # MultPAX: Keyphrase Extraction using Language Models and Knowledge Graphs
-This repositoy contains the source code of paper: *"MultPAX: Keyphrase Extraction using Language models and Knowledge Graphs"*. The paper is currently under-review at the ISWC 2022 conference. 
+This repositoy contains the source code of paper: *"MultPAX: Keyphrase Extraction using Language models and Knowledge Graphs"*. The paper is currently under-review at the [ISWC 2022 conference](https://iswc2022.semanticweb.org/). 
 
 <p align="center">
 <img src="data/MltPAX.jpg" width="800" height="400">
@@ -68,6 +68,30 @@ We provide our experiements as Jupyter notebooks (`see Experiments Folder`) and 
 - [MultPAX-SemEval](Experiments/SemEval2010%20experiment/MltPAX-SemEval2010.ipynb)
 - [MultPAX-NUS](Experiments/NUS%20experiment/MltPAX-NUS.ipynb) 
 - [MultPAX-Krapivin2009](Experiments/Krapivin2009%20experiment/MltPAX-Krapivin2009.ipynb)  
+  
+
+### Baselines:
+We obtain the implementation of baselines: TextRank, YAKE from the [open source library PKE](https://github.com/boudinfl/pke). The source-codes for these baselines are available at:
+
+-  [TextRank](Experiments/Baselines/TextRank-Baseline.ipynb)
+-  [YAKE](Experiments/Baselines/YAKE-Baseline.ipynb)
+
+Furthermore, we implemented the EmbedRank using the BERT pretrained model from the [spaCycake]([spacycake](https://github.com/surajiyer/spacycaKE)) library. Our implementation can be found at:
+
+- [EmbedRank](Experiments/Baselines/EmbedRank-Baseline.ipynb) 
+
+
+For the baseline AutoGen: We obtain the implemenation from its official [GitHub repository](https://github.com/Jayshen0/Unsupervised-Deep-Keyphrase-Generation)
+
+For the baseline CopyRNN, the implemenation can be obtained from its [Github repository](https://github.com/supercoderhawk/deep-keyphrase).
+
+
+### Evaluation
+The following notebooks contains the implementation of the evaluation metrics used in our experiments:
+
+
+- [F1 evaluation based on exact-matching](Evaluation/F1-Porter-Stemming.ipynb)
+- [F1 evaluation based on semantic-matching](Evaluation/F1-Embedding%20Evaluation.ipynb)
 
 ---
 ## Citation
