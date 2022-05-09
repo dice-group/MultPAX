@@ -90,8 +90,8 @@ For the baseline CopyRNN, the implemenation can be obtained from its [Github rep
 The following notebooks contains the implementation of the evaluation metrics used in our experiments:
 
 
-- [F1 evaluation based on exact-matching](Evaluation/F1-Porter-Stemming.ipynb)
-- [F1 evaluation based on semantic-matching](Evaluation/F1-Embedding%20Evaluation.ipynb)
+- [F1 evaluation based on exact-matching](evaluation/F1-Porter-Stemming.ipynb)
+- [F1 evaluation based on semantic-matching](evaluation/F1-Embedding%20Evaluation.ipynb)
 
 ---
 ## Citation
