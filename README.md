@@ -97,7 +97,7 @@ The following notebooks contains the implementation of the evaluation metrics us
 ## Citation
 ```
 @INPROCEEDINGS
-{zahera2022tab2onto, 
+{zahera2022multpax, 
 author = "Hamada M. Zahera, Daniel Vollmers, Mohamed Ahmed Sherif and Axel-Cyrille Ngonga Ngomo", 
 title = "MultPAX: Keyphrase Extraction using Language Models and Knowledge Graphs",
 booktitle = "The 21th International Semantic Web Conference (ISWC) 2022", 
