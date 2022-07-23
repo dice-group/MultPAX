@@ -1,10 +1,10 @@
 # MultPAX: Keyphrase Extraction using Language Models and Knowledge Graphs
-This repositoy contains the source code of paper: *"MultPAX: Keyphrase Extraction using Language models and Knowledge Graphs"*. The paper is currently under-review at the [ISWC 2022 conference](https://iswc2022.semanticweb.org/). 
+This repositoy contains the source code of our paper: *"MultPAX: Keyphrase Extraction using Language models and Knowledge Graphs"*. The paper has been accepted at the [ISWC 2022 conference](https://iswc2022.semanticweb.org/). 
 
 <p align="center">
-<img src="data/MltPAX.jpg" width="800" height="400">
+<img src="data/MltPAX.jpeg" width="800" height="400">
 </p>
-<p align="center">Fig. 1 Architecure of MltPAX Framework</p>
+<p align="center">Fig. 1 the architecure of MultPAX framework</p>
 
 
 ### Summary: 
@@ -95,4 +95,11 @@ The following notebooks contains the implementation of the evaluation metrics us
 
 ---
 ## Citation
-TBD
+```
+@INPROCEEDINGS
+{zahera2022tab2onto, 
+author = "Hamada M. Zahera, Daniel Vollmers, Mohamed Ahmed Sherif and Axel-Cyrille Ngonga Ngomo", 
+title = "MultPAX: Keyphrase Extraction using Language Models and Knowledge Graphs",
+booktitle = "The 21th International Semantic Web Conference (ISWC) 2022", 
+year = "2022", series = "Springer"}
+```
